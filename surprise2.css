@@ -1,0 +1,72 @@
+/* Reset and base */
+html, body {
+  height: auto;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  background: #ffe4ec;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.container {
+  margin-top: 20px;
+  max-width: 600px;
+  width: 100%;
+  background-color: #fff0f5;
+  border: 3px solid #ff3366;
+  border-radius: 15px;
+  padding: 30px 20px;
+  box-shadow: 0 4px 15px rgba(255, 51, 102, 0.3);
+  color: #660033;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.message {
+  padding-top: 10px;
+}
+
+.message p {
+  font-size: 1.1rem;
+  margin: 15px 0;
+  line-height: 1.6;
+  padding: 0 10px;
+}
+
+.photos {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.photos img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid #ff6680;
+  box-shadow: 0 2px 8px rgba(255, 102, 128, 0.5);
+}
+
+/* Responsive tweaks */
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 20px 15px;
+  }
+  .message p {
+    font-size: 1rem;
+  }
+  .photos img {
+    width: 90px;
+    height: 90px;
+  }
+}

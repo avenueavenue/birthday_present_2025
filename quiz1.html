@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>One Word Quiz</title>
+  <link rel="stylesheet" href="quiz1.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>📝 One Word Quiz 📝</h1>
+    <div id="question-container">
+      <p id="question">Loading question...</p>
+      <input type="text" id="answer" placeholder="Type your answer..." autofocus />
+      <div class="btn-group">
+        <button id="prevBtn" disabled>⬅ Previous</button>
+        <button id="submitBtn">Submit</button>
+        <button id="nextBtn" disabled>Next ➡</button>
+      </div>
+    </div>
+    <p id="feedback"></p>
+    <div class="buttons">
+      <button id="backBtn">⬅ Last Page</button>
+    </div>
+  </div>
+  <script src="quiz1.js"></script>
+</body>
+</html>

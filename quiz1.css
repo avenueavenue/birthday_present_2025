@@ -1,0 +1,87 @@
+body {
+    background-color: #fff0f5; /* light pink background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* horizontal center */
+    align-items: center;     /* vertical center */
+}
+
+.container {
+    text-align: center;
+    border: 3px solid #ff3366; /* pink border */
+    border-radius: 15px;
+    padding: 30px;
+    background-color: #ffe4ec; /* soft pink background */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+}
+
+h1 {
+    color: red;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+    border: 2px solid #ff99bb;
+    border-radius: 8px;
+    outline: none;
+    font-size: 16px;
+    background-color: #fff0f5;
+    color: #660033;
+}
+
+.btn-group {
+    margin-top: 10px;
+}
+
+.btn-group button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #ff3366;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-group button:disabled {
+    background-color: #ffc1d3;
+    cursor: not-allowed;
+}
+
+.btn-group button:hover:enabled {
+    background-color: #ff6680;
+}
+
+#feedback {
+    margin-top: 15px;
+    font-weight: bold;
+    min-height: 24px;
+    color: #660033;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons button {
+    background-color: #ff3366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttons button:hover {
+    background-color: #ff6680;
+}

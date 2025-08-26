@@ -1,0 +1,48 @@
+body, html {
+  margin: 0; padding: 0; height: 100%;
+  font-family: Arial, sans-serif;
+  background: #ffe4ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-x: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.animated-text {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ff3366;
+  text-align: center;
+  opacity: 0;
+  animation: scaleFadeIn 2s forwards;
+  margin-bottom: 25px;
+  max-width: 90vw;
+  word-wrap: break-word;
+}
+
+@keyframes scaleFadeIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.next-btn {
+  background-color: #ff3366;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 90vw;
+  max-width: 300px;
+}
+
+.next-btn:hover {
+  background-color: #ff6680;
+}
